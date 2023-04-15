@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Wines</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__body">
+                <div class="body__burger">
+                    <div class="header__top top-header">
+                        <div class="top-header__container">
+                            <div class="top-header__body">
+                                <div class="top-header__column column-top-header">
+                                    <a href="" class="column-top-header__list">Full stock list(Excel/CSV)</a>
+                                    <div class="column-top-header__search">
+                                        <input placeholder="Search" type="text" autocomplete="off" maxlength="128" class="search-input">
+                                        <button type="submit" class="search-button"><img src="./img/header/icons/search.png" alt="search"></button>
+                                    </div>
+                                </div>
+                                <div class="top-header__column column-top-header column-top-header__desktop">
+                                    <a class="column-top-header__logo"><img src="./img/header/hw-logo.png" alt="logo"></a>
+                                    <div class="column-top-header__address">Davies St. Mayfair, London</div>
+                                </div>
+                                <div class="top-header__column column-top-header">
+                                    <div class="column-top-header__actions actions-top-header actions-top-header_adaptive">
+                                        <a href="tel:+4402072907870" class="actions-top-header__phone">+44 (0) 20 729 078 70</a>
+                                        <div class="actions-top-header__icon"><img src="./img/header/icons/phone.png" alt="phone"></div>
+                                    </div>
+                                    <div class="column-top-header__actions actions-top-header actions-top-header_end">
+                                        <a href="" class="actions-top-header__user"><img src="./img/header/icons/user.png" alt="user_menu"></a>
+                                        <a href="" class="actions-top-header__basket"><img src="./img/header/icons/basket.png" alt="basket"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="header__bottom bottom-header">
+                        <div class="bottom-header__container">
+                            <nav class="bottom-header__menu menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item menu__item-arrow">
+                                        <a href="#" class="menu__link">Wines</a>
+                                        <div class="sublist__body sublist__body_wines">
+                                            <ul class="body__list body__list_wines">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Type</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Red</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link"> Rose</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">White</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Sparkling Wines</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Sweet Wines</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Fortified Wines</a></li>
+                                            </ul>
+                                            <ul class="body__list body__list_wines">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Country</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">France</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Italy</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Spain</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">United States</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Portugal</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Australia</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Germany</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">South Africa</a></li>
+                                            </ul>
+                                            <ul class="body__list body__list_wines">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Region</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Burgundy</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Bordeaux</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Tuscany</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">California</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Champagne</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Rioja</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link"> Alsace</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Loire</a></li>
+                                            </ul>
+                                            <ul class="body__list body__list_wines">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Grape</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Bordeaux Blend Red</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Cabernet Sauvignon</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Pinot Noir</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Chardonnay</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Syrah / Shiraz</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Riesling</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Tempranillo</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Merlot</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="menu__item menu__item-arrow">
+                                        <a href="#" class="menu__link">Spirits and more</a>
+                                        <div class="sublist__body sublist__body_spirits">
+                                            <ul class="body__list body__list-spirits">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Whisky</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">All Whisky</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Scottish Whisky</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Blended</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Highlands</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Islay</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Lowlands</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Speyside</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">American Whiskey</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">European Whisky</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Japanese Whisky</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Irish Whiskey</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Other Whisky</a></li>
+                                            </ul>
+                                            <ul class="body__list body__list-spirits">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Brandy</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Cognac</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Armagnac</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Brandy</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Calvados</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Grappa</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Eau De Vie</a></li>
+                                            </ul>
+                                            <ul class="body__list body__list-spirits">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Other</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Gin</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Vodka</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Tequila</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Mezcal</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Rum</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Vermouth & Aromatised Wine</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Liqueurs, Bitters & Other</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Sake</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Umeshu</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Aquavit</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Olive Oils</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="menu__item menu__item-arrow">
+                                        <a href="#" class="menu__link">Other</a>
+                                        <ul class="menu__sublist sublist">
+                                            <li class="sublist__item"><a href="" class="sublist__link">Books</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link"> Cleaning Accessories</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Decanters</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Decanting Accessories</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Glasses</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Nez du Vin</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Water & Mixers</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Opening Accessories</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link"> Preserving Accessories</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Serving Accessories</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Sake Accessories</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item menu__item-arrow">
+                                        <a href="#" class="menu__link">Gifting</a>
+                                        <ul class="menu__sublist sublist">
+                                            <li class="sublist__item"><a href="" class="sublist__link">Sending a Gift</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Gift Vouchers</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Anniversary Vintages</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Multi Dispatches & Corporate Gifting</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Graham's Port Bonds</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item menu__item-arrow">
+                                        <a href="#" class="menu__link">Tastings</a>
+                                        <ul class="menu__sublist sublist">
+                                            <li class="sublist__item"><a href="" class="sublist__link">Wine & Spirits Tastings</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Private Wine Tastings</a></li>
+                                            <li class="sublist__item"><a href="" class="sublist__link">Enomatic Tastings</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item"><a href="#" class="menu__link">Deliveries</a></li>
+                                    <li class="menu__item menu__item-arrow">
+                                        <a href="#" class="menu__link">About</a>
+                                        <div class="sublist__body sublist__body_about">
+                                            <ul class="body__list body__list_about">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Useful Information</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Contact Us</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">FAQs</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Sell My Fine Wine</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Sell My Whisky</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Careers</a></li>
+                                            </ul>
+                                            <ul class="body__list body__list_about">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">About Hedon</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Meet The Team</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Customer Reviews</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link"> HIDE Restaurant</a></li>
+                                            </ul>
+                                            <ul class="body__list body__list_about">
+                                                <li class="sublist__item_title"><h3 class="sublist__title">Sommelier Insights</h3></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Interviews</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Exclusive to Hedonism</a></li>
+                                                <li class="sublist__item"><a href="" class="sublist__link">Learn and Explore</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav> 
+                        </div>        
+                    </div>
+                </div>
+                <div class="menu__burger"><span></span></div>
+                <div class="top-header__column column-top-header column-top-header__adaptive">
+                    <a class="column-top-header__logo"><img src="./img/header/hw-logo.png" alt="logo"></a>
+                    <div class="column-top-header__address">Davies St. Mayfair, London</div>
+                </div>
+                <div class="header__trust trust-header">
+                    <div class="trust-header__container">
+                        <div class="trust-header__body">
+                            <div class="trust-header__item item-trust-header">
+                                <div class="item-trust-header__image"><img src="./img/header/icons/car.png" alt="car"></div>
+                                <div class="item-trust-header__content">
+                                    <h3 class="item-trust-header__title">Worldwide Delivery</h3>
+                                    <h4 class="item-trust-header__subtitle">to over 20 countries</h4>
+                                </div>
+                            </div>
+                            <div class="trust-header__item item-trust-header">
+                                <div class="item-trust-header__image"><img src="./img/header/icons/moto.png" alt="moto"></div>
+                                <div class="item-trust-header__content">
+                                    <h3 class="item-trust-header__title">Free UK Delivery</h3>
+                                    <h4 class="item-trust-header__subtitle">on orders over £200</h4>
+                                </div>
+                            </div>
+                            <div class="trust-header__item item-trust-header">
+                                <div class="item-trust-header__image"><img src="./img/header/icons/wine.png" alt="wine"></div>
+                                <div class="item-trust-header__content">
+                                    <h3 class="item-trust-header__title">10,000 Wines and Spirits</h3>
+                                    <h4 class="item-trust-header__subtitle">in one incredible store</h4>
+                                </div>
+                            </div>
+                            <div class="trust-header__item item-trust-header">
+                                <div class="item-trust-header__image"><img src="./img/header/icons/award.png" alt="award"></div>
+                                <div class="item-trust-header__content">
+                                    <h3 class="item-trust-header__title">Multiple Award Winner</h3>
+                                    <h4 class="item-trust-header__subtitle">Multiple Award Winner</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__main-link">
+                    <a href="" class="main-link">
+                        <img src="./img/header/icons/glass.png" alt="glass">
+                         Win a trip for two to Fettercairn distillery 
+                        <img src="./img/header/icons/glass.png" alt="glass">
+                    </a>
+                </div>
+            </div>    
+        </header>
+        <section class="fullscreen">
+            <img src="./img/fullscreen/main_photo.jpg" alt="photo">
+            <div class="fullscreen__body">
+                <h1 class="fullscreen__title">Win a trip for two to Fettercairn distillery</h1>
+                <h2 class="fullscreen__subtitle">Flights, accommodation, a private tour and tasting</h2>
+                <a href="#" class="fullscreen__link">Explore</a>
+            </div>
+        </section>
+        <section class="category">
+            <div class="category__body">
+                <a href="#" class="category__item">
+                    <img src="./img/category/01.jpg" alt="photo">
+                    <div class="category__content">
+                        <h3 class="category__title">Wines</h3>
+                        <div class="category__subtitle">View our selection</div>
+                    </div>
+                </a>
+                <a href="#" class="category__item">
+                    <img src="./img/category/02.jpg" alt="photo">
+                    <div class="category__content">
+                        <h3 class="category__title">Spirits</h3>
+                        <div class="category__subtitle">Whisky, Gin, Brandy and more</div>
+                    </div>
+                </a>
+                <a href="#" class="category__item">
+                    <img src="./img/category/03.jpg" alt="photo">
+                    <div class="category__content">
+                        <h3 class="category__title">Large Formats</h3>
+                        <div class="category__subtitle">From Magnum to Midas</div>
+                    </div>
+                </a>
+                <a href="#" class="category__item">
+                    <img src="./img/category/04.jpg" alt="photo">
+                    <div class="category__content">
+                        <h3 class="category__title">Online Tastings</h3>
+                        <div class="category__subtitle">Connect with friends and colleagues</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="review">
+            <div class="review__body">
+                <div class="review__block block-review">
+                    <div class="block-review__image"><img src="./img/review/09.jpg" alt="photo"></div>
+                    <div class="block-review__item item-block-review">
+                        <div class="item-block-review__title">Exclusive to Hedonism - Capreolus Apricot Eau de Vie 2021</div>
+                        <div class="item-block-review__text">
+                            <p>Based in the heart of the British countryside, Capreolus are a boutique distillery who focus on producing small batch, delicately perfumed, complex Eau de Vie and Gin. Founded in 2014 by Barney Wilczak, the distillery has swiftly gained a reputation for producing high quality distillates that rival the finest fruit brandies in the world.</p>
+                            <p>We were delighted to collaborate with Barney on an exclusive bottling of their 2021 apricot Eau de Vie, limited to just 120 bottles.</p>
+                        </div>
+                        <a href="" class="item-block-review__link">explore</a>
+                    </div>
+                </div>
+                <div class="review__block block-review block-review_reverse">
+                    <div class="block-review__image"><img src="./img/review/02.jpg" alt="photo"></div>
+                    <div class="block-review__item item-block-review">
+                        <div class="item-block-review__title">Celebrating or looking for the perfect gift?</div>
+                        <div class="item-block-review__text">
+                            <p>Choose from over 350 different Champagnes - from prestigious Grande Marques to small, independent growers. Whether you're a lover of fine sparkling wine or celebrating a special occasion, we've got you covered.</p>
+                            <p>If you're looking for the perfect gift, we can have your order gift wrapped and delivered the next working day in some cases. Click the link below to begin browsing our huge selection - from Veuve Clicquot to Dom Perignon, Bruno Paillard to Jacques Selosse.</p>
+                        </div>
+                        <a href="" class="item-block-review__link">browse our selection</a>
+                    </div>
+                </div>
+                <div class="review__block block-review">
+                    <div class="block-review__image"><img src="./img/review/03.jpg" alt="photo"></div>
+                    <div class="block-review__item item-block-review">
+                        <div class="item-block-review__title">Wines Under £30</div>
+                        <div class="item-block-review__text">
+                            <p>Here at Hedonism, we have a broad selection of over 300 wines at under £30 - from Bordeaux to Burgundy, from Mendoza to Marlborough and beyond, these wines represent superb value and a great chance to explore new wineries, regions and styles.</p>
+                            <p>Those purchasing 6 bottles or more also enjoy free UK shipping.</p>
+                        </div>
+                        <a href="" class="item-block-review__link">browse our selection</a>
+                    </div>
+                </div>
+                <div class="review__block block-review block-review_reverse">
+                    <div class="block-review__image"><img src="./img/review/04.jpg" alt="photo"></div>
+                    <div class="block-review__item item-block-review">
+                        <div class="item-block-review__title">The Dalmore</div>
+                        <div class="item-block-review__text">
+                            <p>For over 150 years, The Dalmore has set the standard in multi cask maturation. Hand selected casks, from the world's finest bodegas and wineries are expertly curated to create a sumptuous and layered whisky of legendary finesse.</p>
+                            <p>From their core range to their incredible single vintage Constellation bottlings, each expression presents a different nuance of the distillery's definitive house style.</p>
+                        </div>
+                        <a href="" class="item-block-review__link">browse our selection</a>
+                    </div>
+                </div>
+                <div class="review__block block-review">
+                    <div class="block-review__image"><img src="./img/review/05.jpg" alt="photo"></div>
+                    <div class="block-review__item item-block-review">
+                        <div class="item-block-review__title">The Fine Wines of California</div>
+                        <div class="item-block-review__text">
+                            <p>Ever since Steven Spurrier's famous Judgement of Paris in the 1970s, the wine world has held the fine wines of California in the same regard as the very best examples from Bordeaux and Burgundy. Names like Screaming Eagle, Marcassin, Shafer Vineyards, Abreu and Harlan take pride of place on the wine lists of some of the greatest restaurants and in the cellars of connoisseurs worldwide.</p>
+                            <p>Here at Hedonism we have over 1,000 different wines from California including rare vintages back to the 1970s and cult wines unavailable anywhere else.</p>
+                        </div>
+                        <a href="" class="item-block-review__link">browse our selection</a>
+                    </div>
+                </div>
+                <div class="review__block block-review block-review_reverse">
+                    <div class="block-review__image"><img src="./img/review/06.jpg" alt="photo"></div>
+                    <div class="block-review__item item-block-review">
+                        <div class="item-block-review__title">American Bourbon, Whiskey and Rye</div>
+                        <div class="item-block-review__text">
+                            <p>From Buffalo Trace's annual Antique Collection to Blanton's highly sought after single barrel bottlings, the American whiskey renaissance is in full swing! We have over 250 to choose from at Hedonism Wines including vintage bottlings back to the 1950s and long-discontinued limited editions.</p>
+                            <p>Dive in and pick out a bottle to enjoy - whether your preference is for a rich, smooth Kentucky Bourbon or a spicy, complex rye we have something for everyone.</p>
+                        </div>
+                        <a href="" class="item-block-review__link">browse our selection</a>
+                    </div>
+                </div>
+                <div class="review__block block-review">
+                    <div class="block-review__image"><img src="./img/review/07.jpg" alt="photo"></div>
+                    <div class="block-review__item item-block-review">
+                        <div class="item-block-review__title">Fine Wine and Spirits Boutique</div>
+                        <div class="item-block-review__text">
+                            <p>Hedonism is a fine wine and spirits boutique which has already become the most talked about wine project of recent times. Established in August 2012 and located in the heart of London’s Mayfair, Hedonism is a fine wine, whisky and spirits boutique which has already become the most talked about wine project of recent times.</p>
+                            <p>The UK's best buyers have sourced around 6,500 wines and 3,000 spirits, taking the crème de la crème from each region of the world whilst carefully checking the provenance of every bottle.</p>
+                        </div>
+                        <a href="" class="item-block-review__link">browse our wines</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__body">
+                    <div class="footer__top">
+                        <div class="footer__links links-footer">
+                            <ul class="links-footer__list">
+                                <li class="links-footer__item"><a href="" class="links-footer__link links-footer__link_title">Our Drinks</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Bordeaux</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Burgundy</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">American Whiskey</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link"> Japanese Whisky</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link"> Scottish Whisky</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Cognac</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Champagne</a></li>       
+                            </ul>
+                            <ul class="links-footer__list">
+                                <li class="links-footer__item"><a href="" class="links-footer__link links-footer__link_title">About Us</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Reviews</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Our News</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Meet The Team</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Careers</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Modern Slavery Statement</a></li>   
+                            </ul>
+                            <ul class="links-footer__list">
+                                <li class="links-footer__item"><a href="" class="links-footer__link links-footer__link_title">Customer Services</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Contact</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Customer Reviews</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Gift Cards</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link"> Sending a Gift</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Delivery Information</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">Terms & Conditions</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link"> Privacy Policy</a></li> 
+                            </ul>
+                            <ul class="links-footer__list">
+                                <li class="links-footer__item"><a href="" class="links-footer__link links-footer__link_title">Hedonism Wines</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link">3 / 7 Davies Street London W1K 3LD</a></li>
+                                <li class="links-footer__item"><a href="" class="links-footer__link links-footer__link_title">Opening Hours</a></li>
+                                <li class="links-footer__item">
+                                    <p>Mon-Sat 10am - 9pm</p>
+                                    <p>Sun 12pm - 6pm</p>
+                                </li> 
+                            </ul>
+                        </div>
+                        <div class="footer__contacts contacts-footer">
+                            <div class="contacts-footer__form ">
+                                <form class="form-footer" action="/" method="post" id="footer-form">
+                                    <input type="email" autocomplete="off" required name="form[]" placeholder="Email address" id="footer-email" class="form-footer__input">
+                                    <button type="submit" class="form-footer__button">Subscribe</button>
+                                </form>
+                            </div>
+                            <ul class="contacts-footer__list">
+                                <li class="contacts-footer__item">
+                                    <a class="contacts-footer__link" href="tel:+442072907870">+44 (0)20 729-078-70</a>
+                                    <div class="contacts-footer__icon"><img src="./img/footer/icons/03.png" alt="icon"></div>
+                                </li>
+                                <li class="contacts-footer__item">
+                                    <a href="mailto:drink@hedonism.co.uk" class="contacts-footer__link">drink@hedonism.co.uk</a>
+                                    <div class="contacts-footer__icon"><img src="./img/footer/icons/02.png" alt="icon"></div>
+                                </li>
+                                <li class="contacts-footer__item">
+                                    <a href="" class="contacts-footer__link">Contact Us</a>
+                                    <div class="contacts-footer__icon"><img src="./img/footer/icons/04.png" alt="icon"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__rights rights-footer">
+                            <a href="" class="rights-footer__link">© 2022 Hedonism Wines.</a>
+                            <p>All rights reserved.</p>
+                            <a href="" class="rights-footer__link">Privacy Policy<span></span></a>
+                            <a href="" class="rights-footer__link">Cookie Policy<span></span></a>
+                            <a href="" class="rights-footer__link">Sitemap</a>
+                        </div>
+                        <div class="footer__socials"><img src="./img/footer/icons/01.gif" alt="credit_cards"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="./js/script.js"></script> 
+</body>
+</html>
